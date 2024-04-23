@@ -24,7 +24,7 @@ export default function GroqAiOptions({ settings }) {
           </label>
           <select
             name="GroqModelPref"
-            defaultValue={settings?.GroqModelPref || "llama2-70b-4096"}
+            defaultValue={settings?.GroqModelPref || "llama3-70b-8192"}
             required={true}
             className="bg-zinc-900 border-gray-500 text-white text-sm rounded-lg block w-full p-2.5"
           >
