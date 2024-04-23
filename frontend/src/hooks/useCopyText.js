@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function useCopyText(delay = 2500) {
+export default function useCopyText(delay = 00) {
   const [copied, setCopied] = useState(false);
   const copyText = async (content) => {
     if (!content) return;
